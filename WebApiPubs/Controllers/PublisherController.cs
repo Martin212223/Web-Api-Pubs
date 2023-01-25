@@ -30,12 +30,25 @@ namespace WebApiPubs.Controllers
 
         //GET por id
         [HttpGet("{id}")]
-        public ActionResult<Publisher> Get(string id)
+        public ActionResult<IEnumerable<Publisher>> Get(string id)
         {
-            Publisher publisher = (from pub in context.Publishers where pub.PubId == id select pub).SingleOrDefault();
+            //Publisher publisher = (from pub in context.Publishers where pub.PubId == id select pub).SingleOrDefault();
 
-            return publisher;
+            //return publisher;
+
+            var result = context.Publishers.Include(x => x.Titles).ToList();
+
+            return result;
         }
+
+        //[HttpGet]
+        //public ActionResult<IEnumerable<Autor>> Get()
+        //{
+        //    //return context.Autores.ToList();
+        //    var result = context.Autores.Include(x => x.Libros).ToList();
+        //    return result;
+        //}
+
 
         //POST
         [HttpPost]

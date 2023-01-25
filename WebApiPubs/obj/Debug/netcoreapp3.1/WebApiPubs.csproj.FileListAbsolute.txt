@@ -63,3 +63,6 @@ C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\obj\Debug\netcoreapp3.1\W
 C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\obj\Debug\netcoreapp3.1\WebApiPubs.dll
 C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\obj\Debug\netcoreapp3.1\WebApiPubs.pdb
 C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\obj\Debug\netcoreapp3.1\WebApiPubs.genruntimeconfig.cache
+C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Alternativa\Desktop\pubs\slnDBPubs\WebApiPubs\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
